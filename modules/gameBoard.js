@@ -1,6 +1,5 @@
 const gameBoard = {
-    board : ['X','O','X','O','X','O', 'X', 'O','X']
+    board : [0,0,0,0,0,0,0,0,0]
 }
-let gameDisplay = document.getElementById('gameDisplay')
 
-export{gameBoard, gameDisplay}
+export{gameBoard}

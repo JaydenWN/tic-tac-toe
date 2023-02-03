@@ -1,7 +1,6 @@
-function createSelectSquare(input){
+function createSelectSquare(){
     let selectSquare = document.createElement('div')
     selectSquare.setAttribute('class', 'selectSquare')
-    selectSquare.innerHTML = input
     return selectSquare
 }
 
